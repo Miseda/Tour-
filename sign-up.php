@@ -1,3 +1,27 @@
+<?php
+if(isset( $_POST['email_address']) || isset($_POST['user_password'])){
+$email_address = $_POST['email_address'];
+$user_password = $_POST['user_password'];
+
+
+$conn= new mysqli ('localhost','root','','wdp');
+
+if ($conn->connect_error){
+    die("Connection Failed:". $conn->connect_error());
+}else{
+    $stmt = $conn->prepare("insert into entry_details (email_address, user_password) 
+    values(?,?)");
+    $stmt->bind_param("ss",$email_address,$user_password);
+    $stmt->execute();
+    echo '<script type ="text/JavaScript">';  
+    echo 'alert("Registration successful")';  
+    echo '</script>';  
+    $stmt->close();
+    $conn->close();
+}
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +41,8 @@
                 <ul class="nav-list">
                     <li><a href="contacts.php">CONTACTS</a></li>
                     <li><a href="about-us.html">ABOUT US</a></li>
-                    <li><a href="sign-up.html">SIGN UP</a></li>
-                    <li><a class="login-btn" href="index.php"><button>LOGIN</button></a></li>
+                    <li><a href="sign-up.php">SIGN UP</a></li>
+                    <li><a class="login-btn" href="login.php"><button>LOGIN</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -32,7 +56,7 @@
         </div>
 
         <div class="login-form">
-            <form action="register.php" method="post">
+            <form action="sign-up.php" method="post">
                 <label>
                     <input type="email" placeholder="Email address" name="email_address" required>
                 </label>

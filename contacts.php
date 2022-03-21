@@ -1,3 +1,31 @@
+<?php
+
+if(isset($_POST['name']) || isset($_POST['email'])|| isset($_POST['subject']) || isset($_POST['contact']) || isset ($_POST['message'])){
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$contact = $_POST['contact'];
+$message = $_POST['message'];
+
+$conn= new mysqli ('localhost','root','','wdp');
+
+if ($conn->connect_error){
+    die("Connection Failed:". $conn->connect_error());
+}else{
+    $stmt = $conn->prepare("insert into customer_reports (name, email, subject, contact, message) 
+    values(?,?,?,?,?)");
+    $stmt->bind_param("sssss",$name,$email,$subject,$contact,$message);
+    $stmt->execute();
+    echo '<script type ="text/JavaScript">';  
+    echo 'alert("We have received your message and will get back to you within 3-5 business days.")';  
+    echo '</script>';  
+    $stmt->close();
+    $conn->close();
+
+}
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +45,8 @@
                 <ul class="nav-list">
                     <li><a href="contacts.php">CONTACTS</a></li>
                     <li><a href="about-us.html">ABOUT US</a></li>
-                    <li><a href="sign-up.html">SIGN UP</a></li>
-                    <li><a class="login-btn" href="index.php"><button>LOGIN</button></a></li>
+                    <li><a href="sign-up.php">SIGN UP</a></li>
+                    <li><a class="login-btn" href="login.php"><button>LOGIN</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +57,7 @@
 
 
         <div class="login-form">
-            <form action="register.php" method="post">
+            <form action="contacts.php" method="post">
                 <label>
                     <input type="text" placeholder="Full name" name="name" required>
                 </label>
