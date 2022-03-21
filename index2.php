@@ -21,9 +21,8 @@ if ($conn->connect_error){
             
             }
 
-            if($data['user_password'] !== $user_password){
-                $error="Invalid login";
-            }
+            
+            
        
     }
 }
