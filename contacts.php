@@ -16,7 +16,7 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="contacts.php">CONTACTS</a></li>
-                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
                     <li><a href="sign-up.html">SIGN UP</a></li>
                     <li><a class="login-btn" href="index.php"><button>LOGIN</button></a></li>
                 </ul>
