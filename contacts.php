@@ -15,10 +15,10 @@
             </div>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="contacts.php">CONTACTS</a></li>
                     <li><a href="#">ABOUT US</a></li>
                     <li><a href="sign-up.html">SIGN UP</a></li>
-                    <li><a class="login-btn" href="index.html"><button>LOGIN</button></a></li>
+                    <li><a class="login-btn" href="index.php"><button>LOGIN</button></a></li>
                 </ul>
             </nav>
         </header>
