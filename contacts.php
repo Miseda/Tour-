@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOUR</title>
-    <link rel="stylesheet" href="sign-styles.css">
+    <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
     <div class ="container">
@@ -27,9 +27,6 @@
             The United Kingdom, Mauritius and Kenya.</p>
         </div>
 
-        <div class="heading">
-            <h1>Sign up</h1>
-        </div>
 
         <div class="login-form">
             <form action="register.php" method="post">
@@ -53,7 +50,7 @@
                     <input type="text" placeholder="Message" name="message" required>
                 </label> 
 
-                <button name ="save" type="submit">SIGN UP</button>
+                <button name ="save" type="submit">SEND MESSAGE</button>
                 
             </form>
         </div>
