@@ -16,7 +16,7 @@ if ($conn->connect_error){
     if( $stmt_result-> num_rows > 0){
         $data = $stmt_result-> fetch_assoc();
         if($data['user_password'] === $user_password){
-            header("Location:landing.html");
+            header("Location:countries.html");
             die;
         }else{
             echo '<script type ="text/JavaScript">';  
@@ -53,7 +53,7 @@ if ($conn->connect_error){
                     <li><a href="contacts.php">CONTACTS</a></li>
                     <li><a href="about-us.html">ABOUT US</a></li>
                     <li><a href="sign-up.php">SIGN UP</a></li>
-                    <li><a class="login-btn" href="index.php"><button>LOGIN</button></a></li>
+                    <li><a class="login-btn" href="login.php"><button>LOGIN</button></a></li>
                 </ul>
             </nav>
         </header>
