@@ -55,6 +55,9 @@ if ($conn->connect_error){
             The United Kingdom, Mauritius and Kenya.</p>
         </div>
 
+        <div class="heading">
+            <h1>Contact us</h1>
+        </div>
 
         <div class="login-form">
             <form action="contacts.php" method="post">

@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px ;
+    padding-top: 10px ;
 }
 
 
@@ -97,18 +97,19 @@ body{
 }
 
 .heading{
-    margin: 0 0.3em;
-    font-family: Montserrat;
+    margin: 0 12.5%;
+    font-family: 'Noto Sans TC', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 15px;
     line-height: 3px;
+    margin-bottom: 2%;
 }
 
 
 input[type=email], input[type=text], input[type=number] {
     width: 50%;
-    padding: 12px 20px;
+    padding: 7px 20px;
     margin: 20px 0;
     display: inline-block;
     border: 1px solid rgb(179, 171, 171);
@@ -145,6 +146,11 @@ form a{
     color: black;
 }
 
+.login-form{
+
+    margin-left: -50px;
+
+}
 
 
 

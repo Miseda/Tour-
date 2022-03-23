@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px ;
+    padding-top: 20px ;
 }
 
 
@@ -75,6 +75,7 @@ body{
     background-color: #bc2525;
     box-shadow: inset black;
     border: none;
+    margin-right: 0px;
     
 }
 
@@ -103,14 +104,15 @@ body{
     font-weight: bold;
     font-size: 30px;
     line-height: 3px;
+    margin-bottom: 7%;
 }
 
 
 input[type=email], input[type=password] {
-    width: 50%;
+    width: 45%;
     padding: 12px 20px;
-    margin: 20px 0;
-    display: inline-block;
+    margin: 25px 0;
+    display: block;
     border: 1px solid rgb(179, 171, 171);
     box-sizing: border-box;
     border-radius: 7px;
@@ -128,19 +130,19 @@ form button{
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
-    width: 50%;
+    width: 45%;
     }
 
 .forgot{
-    margin: 15px;
-    font-size: 12px;
-
+    margin: 20px 0px;
+    font-size: 10px;
 
 }
-span.psw {
 
-    padding: 0 0 0 160px;
+span.psw {
+    padding: 0 0 0 163px;
     }
+
 form a{
     text-decoration: none;
     font-weight: 700;
@@ -153,9 +155,12 @@ form a{
 }
 
 .to-sign-up p{
-    font-size: 13px;
+    font-size: 11px;
+    font-weight: 550;
     
 }
+
+
 
 
 

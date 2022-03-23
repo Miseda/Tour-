@@ -77,7 +77,7 @@ if ($conn->connect_error){
                 </label>  
 
                 <div class="forgot">
-                    <input type="checkbox" name="remember"> Remember me      
+                    <input type="checkbox" class="box-size" name="remember"> Remember me      
                     <span class="psw"><a href="#"> Forgot password? </a></span>
                 </div>
 
