@@ -1,0 +1,181 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px ;
+    background-color:  rgba(188, 37, 37, 0.72); 
+    margin: -430px 0;
+    
+} 
+
+
+
+.nav ul.nav-list{
+    list-style-type: none;
+    
+
+}
+.colour{
+    background-color: #bc2525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px ;
+    background-color:  rgba(188, 37, 37, 0.72); 
+    margin: -250px 0;
+    width: 100%;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    display: inline-block;
+    padding-bottom: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav ul li a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #bc2525;
+    bottom: 0px;
+    left:-100%;
+    transition: all .3s ease-in-out;
+
+}
+
+.nav ul li a:hover:after{
+    left: 0;
+}
+
+.nav ul li a button{
+    width: 100px;
+    height: 35px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #bc2525;
+    box-shadow: inset black;
+    border: none;
+    margin-right: 12px;
+    
+}
+
+.logo a img{
+    width: 130px;
+    margin: 15px 50px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:  1300px;
+  margin: -150px 0px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 100px 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+h1{
+    margin: 800px 50px;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown  {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
