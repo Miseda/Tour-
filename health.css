@@ -189,84 +189,118 @@ h2{
   font-size: 20px;
 }
 
-.hotel-container{
-  margin: 900px 100px;
-  text-align: center;
-
+.covid-container{
+    margin: 900px 210px;
+    background-color: #bc2525;
+    width: 100%;
+    padding: 2em;
+    border-radius: 30px;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f9f9f9;
 }
 
-.filter-nav ul li{
-  display: inline-block;
-  position:relative;
+
+
+.icon1{
+    background-color: #D0B529 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    margin: 2px 45px;
+    margin-bottom: 28px;
 }
 
-.filter-nav ul li button{
-margin: 0px ;
-margin-right: 100px;
-width: 100px;
-height: 35px;
-border-radius: 3px;
-color: #bc2525;
-background-color: #f7f7f7;
-box-shadow: inset black;
-border-color: #bc2525;
-border-width: 1px;
-margin-right: 30px;
-
+.icon2{
+    background-color: #4CB73A ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    margin: 30px 50px;
+   
 }
 
-h4{
-  float: left;
-  margin-top: 19px;
+.icon3{
+    background-color: orange ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    margin: 30px 50px;
+}
+.icon4{
+    background-color: #000000 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    margin:31px 50px;
+}
+
+
+.active-sign{
+    margin: 25px 17px;
+    position: absolute;               
+    transform: translate(0, -50%) ;
+    font-size: 25px;
+    
 }
 
 .image{
-  margin: 100px -580px;
+
+    margin: 25px -8px;
+    position: absolute;               
+    transform: translate(0, -50%) ;
+    font-size: 25px;
+
+    
 }
 
-.name{
-  margin: -380px 650px;
-  color: #bc2525;
+.active-sign2{
+    margin: 25px 21px;
+    position: absolute;               
+    transform: translate(0, -50%) ;
+    font-size: 25px;
+    
+}
+
+.board{
+
+    column-count: 4;
+    column-gap: 5em;
   
-}
-.price{
-  float: right;
-  margin: 95px 70px;
-  width: 70px;
-  height: 20px;
-  font-weight: 500;
-  border-radius: 3px;
-  color: white;
-  text-align: center;
-  background-color: #bc2525;
-  box-shadow: inset black;
-  border-color: #bc2525;
-  border-width: 1px;
+  }
+  .title{
+      padding-bottom: 50px;
+  }
 
+  .search{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-.location{
-  float: right;
-  margin-left:500px;
-  margin-top: 80px;
 
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 120%;
 }
-.rating a{
-  float: right;
-  margin:15px 580px;
-  width: 120px;
-  height: 18px;
-  font-weight: 500;
-  border-radius: 3px;
-  color: white;
-  text-align: center;
-  background-color: #bc2525;
-  border-color: #bc2525;
-  border: none;
-  text-decoration: none;
-  font-size: 13px;
-}
-.paragraph{
-  padding: 150px;
+
+.covid-container button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
 }
 
 

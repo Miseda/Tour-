@@ -221,11 +221,11 @@ h4{
 }
 
 .image{
-  margin: 100px -580px;
+  margin-right: 700px;
 }
 
 .name{
-  margin: -380px 650px;
+  margin: -280px 650px;
   color: #bc2525;
   
 }
@@ -247,12 +247,13 @@ h4{
 .location{
   float: right;
   margin-left:500px;
-  margin-top: 80px;
+  margin-top: 140px;
+  text-align: left;
 
 }
 .rating a{
   float: right;
-  margin:15px 580px;
+  margin:15px 380px;
   width: 120px;
   height: 18px;
   font-weight: 500;
@@ -267,6 +268,7 @@ h4{
 }
 .paragraph{
   padding: 150px;
+ 
 }
 
 
