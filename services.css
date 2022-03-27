@@ -96,3 +96,69 @@ h1 {
 .btn5 img{
     margin: -10px -1px;
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+   
+
+.intro{
+    display: none;
+}
+
+.header{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px ;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.logo a img{
+    width: 100px;
+    margin-left: 20px;
+}
+
+    
+
+.heading{
+    font-size: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+    
+.forgot{
+    display: none;
+}
+    
+
+.all-buttons{
+    margin-left: -265px;
+}
+
+.btn2 img{
+    margin: -10px 0px;
+}
+
+.btn3 img{
+    margin: -12px -2px;
+}
+
+.btn4 img{
+    margin: -13px 0px;
+}
+
+.btn5 img{
+    margin: -10px -1px;
+}
+
+.button img{
+    width: 10%;
+    float: left;
+    margin: -8px 0px;
+}
+
+}

@@ -145,17 +145,8 @@ img {vertical-align: middle;}
           display: none;
       }
 
-      form button{
-
-        background-color: #bc2525;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        font-weight: 700;
-        border-radius: 5px;
-        cursor: pointer;
-        width: 100%;
+        .country-btn{
+          margin-left: -20px;
         }
     
 
