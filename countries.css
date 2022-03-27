@@ -107,3 +107,57 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+   
+
+    .intro{
+        display: none;
+    }
+
+    .header{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px ;
+        text-align: center;
+        margin-left: -30px;
+    }
+
+    .logo a img{
+        width: 100px;
+        margin-left: 20px;
+    }
+
+        
+  
+      .heading{
+          font-size: 10px;
+          margin-top: 80px;
+          margin-bottom: 50px;
+      }
+      
+      .forgot{
+          display: none;
+      }
+
+      form button{
+
+        background-color: #bc2525;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        font-weight: 700;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        }
+    
+
+}
+
